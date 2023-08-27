@@ -16,7 +16,9 @@ Output: false
 """
 
 # a word or phrase made by transposing the letters of another word or phrase
-
+# Dictionary in Python is an unordered collection of data values that are used to 
+# store data values like a map. Unlike other Data Types that hold only single value as an element, 
+# the Dictionary holds key-value pair. In Dictionary, the key must be unique and immutable. 
 class Solution:
     def isAnagram(self, s: str, t: str) -> bool:
         count = defaultdict(int)
