@@ -27,6 +27,7 @@ n == nums.length
 0 <= nums[i] <= n
 All the numbers of nums are unique.
 """
+from typing import List
 
 class Solution:
     def missingNumber(self, nums: List[int]) -> int:
