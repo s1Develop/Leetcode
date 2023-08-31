@@ -27,6 +27,7 @@ class Solution:
             # check if i is one of key in save
             if i in save:
                 return True
+            
             # save[i] refers to value associated with the key i 그니까 i가 key이고 save[i]라고 하면 value
             # 그래서 save[i] = j 이라고 하면 i라는 key에 j를 value로 넣는다는 말
             save[i] = i
