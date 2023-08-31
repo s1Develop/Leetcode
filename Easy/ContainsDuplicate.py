@@ -23,6 +23,8 @@ class Solution:
         save = {}
 
         for i in nums:
+
+            # check if i is one of key in save
             if i in save:
                 return True
             # save[i] refers to value associated with the key i 그니까 i가 key이고 save[i]라고 하면 value
