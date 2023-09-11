@@ -23,10 +23,9 @@ s and goal consist of lowercase English letters.
 """
 class Solution:
     def rotateString(self, s: str, goal: str) -> bool:
-        
-
+        temp = s
         for i in s:
-            if s == goal:
+            if temp == goal:
                 return True
-            s = s[1:] + i
+            temp = temp[1:] + i
         return False
