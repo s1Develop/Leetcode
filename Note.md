@@ -42,3 +42,8 @@ print(keys) # ['key1', 'key2']
 ```python
 for idx, c in enumerate(s):
 ```
+
+
+## B+ Tree
+- often used for disk-based storage systems because they are efficient at storing and retrieving data from disk.
+- an advanced form of a self-balancing tree in which all the values are present in the leaf level
